@@ -17,7 +17,7 @@ async def on_ready():
 async def on_message(message):
     incomingmsg = message.content
     author = message.author
-    shoot = ["Shoot_1.gif", "Shoot_2.gif","Shoot_3.gif","Shoot_5.gif","Shoot_6.gif","Shoot_7.gif","Shoot_8.gif","Shoot_9.gif","Shoot_10.gif","Shoot_11.gif","Shoot_12.gif","Shoot_13.gif","Shoot_14.gif","Shoot_15.gif"]
+    shoot = [] #Insert GIFs for this to work, after downloading them to your device first or into you repo
     #Sees that the message is from this bot, and ignores it
     if message.author == client.user:
         return 0
